@@ -1,0 +1,6 @@
+[submodule "hypergcn"]
+	path = hypergcn
+	url = git@github.com:juhanjarif/Hyper-GCN.git
+[submodule "opengait"]
+	path = opengait
+	url = git@github.com:Tamajose/opengait-demo.git
