@@ -131,7 +131,7 @@ button[role="tab"][aria-selected="true"] {
 def create_iframe_html(port, path=""):
     url = f"http://127.0.0.1:{port}{path}"
     return f"""
-    <iframe src="{url}" class="iframe-container"></iframe>
+    <iframe src="{url}" class="iframe-container" style="width: 100%; height: 850px; border: 1px solid #334155; border-radius: 8px;" allow="camera"></iframe>
     """
 
 og_theme = gr.themes.Default(
